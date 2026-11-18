@@ -1,0 +1,11 @@
+node_modules/
+.npm-cache/
+.DS_Store
+*.log
+.vscode/
+.idea/
+dist/
+*.zip
+.env
+.env.*
+assets/images/_raw/

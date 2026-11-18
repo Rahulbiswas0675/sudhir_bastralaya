@@ -1,0 +1,15 @@
+{
+  "name": "sudhir-bastralaya",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sudhir Bastralaya static fashion landing page",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --watch",
+    "build": "bash scripts/build-hostinger.sh",
+    "build:hostinger": "bash scripts/build-hostinger.sh"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

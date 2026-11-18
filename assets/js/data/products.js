@@ -1,0 +1,98 @@
+export const products = [
+  {
+    id: 'banarasi-saree',
+    title: 'Banarasi Silk Saree',
+    categoryLabel: 'Wedding Favourite',
+    categories: ['sarees', 'bridal'],
+    description:
+      'Rich Banarasi silk with classic zari work—loved by Karimpur families for weddings, receptions and landmark celebrations.',
+    image: 'assets/images/products/banarasi-saree.webp',
+    alt: 'Woman in a green Banarasi silk saree with red-gold border at Sudhir Bastralaya, Karimpur',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'tant-saree',
+    title: 'Bengali Tant Saree',
+    categoryLabel: 'Nadia Everyday Grace',
+    categories: ['sarees', 'casual'],
+    description:
+      'Breathable Tant-inspired cotton that stays light through Bengal summers—ideal for office days, short trips and festive mornings.',
+    image: 'assets/images/products/tant-saree.webp',
+    alt: 'Woman in a white printed Bengali cotton saree with orange border — Tant saree style from Sudhir Bastralaya, Karimpur',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'mulberry-silk',
+    title: 'Pure Silk Saree',
+    categoryLabel: 'Festive Evening Glow',
+    categories: ['sarees', 'bridal'],
+    description:
+      'Lustrous silk with a soft festive drape—chosen for pujas, family dinners and special evenings across Nadia.',
+    image: 'assets/images/products/mulberry-silk.webp',
+    alt: 'Woman in an orange silk saree with gold border and traditional jewellery — pure silk saree in West Bengal style',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'cotton-saree',
+    title: 'Handloom Cotton Saree',
+    categoryLabel: 'Daily Comfort',
+    categories: ['sarees', 'casual'],
+    description:
+      'Soft handloom cotton for college, work, gifting and everyday moments when comfort matters as much as style.',
+    image: 'assets/images/products/cotton-saree.webp',
+    alt: 'Woman in a cream handloom cotton saree with gold border and jasmine gajra',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'designer-anarkali',
+    title: "Women's Festive Kurti Set",
+    categoryLabel: "Women's Wear",
+    categories: ['bridal', 'womens'],
+    description:
+      'Ready-to-wear ethnic kurti styles for women—festive colour and easy movement without a long draping ritual.',
+    image: 'assets/images/products/designer-anarkali.webp',
+    alt: 'Woman in a mustard printed festive kurti set — women’s ethnic wear at Sudhir Bastralaya',
+    width: 956,
+    height: 1400,
+  },
+  {
+    id: 'lehenga-choli',
+    title: 'Bridal Lehenga Ensemble',
+    categoryLabel: 'Wedding Edit',
+    categories: ['bridal'],
+    description:
+      'Statement bridal and reception wear with rich embroidery—visit our Karimpur store for colour, fabric and fit guidance.',
+    image: 'assets/images/products/lehenga-choli.webp',
+    alt: 'Indian bride in an ornate gold and maroon lehenga — wedding ensemble at Sudhir Bastralaya, Karimpur',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'mens-punjabi',
+    title: "Men's Festive Punjabi",
+    categoryLabel: "Men's Wear",
+    categories: ['mens'],
+    description:
+      'Elegant Punjabis and festive sets for weddings, pujas and family gatherings—traditional looks that still feel easy to wear.',
+    image: 'assets/images/products/mens-punjabi.webp',
+    alt: 'Man in a red and gold festive sherwani — men’s ethnic wear at Sudhir Bastralaya, Karimpur',
+    width: 933,
+    height: 1400,
+  },
+  {
+    id: 'kids-ethnic',
+    title: "Kids' Festive Set",
+    categoryLabel: "Kids' Wear",
+    categories: ['mens', 'kids'],
+    description:
+      'Soft festive outfits for little ones—made for long celebration days, family photographs and joyful Bengali occasions.',
+    image: 'assets/images/products/kids-ethnic.webp',
+    alt: 'Young girl in traditional festive attire — kids’ ethnic wear for celebrations in West Bengal',
+    width: 1050,
+    height: 1400,
+  },
+];

@@ -1,0 +1,138 @@
+:root {
+  --color-bg: #f8f4ed;
+  --color-brand: #641f35;
+  --color-brand-secondary: #812f48;
+  --color-logo: #590214;
+  --layout-width-mobile: 95%;
+  --layout-width-desktop: 90%;
+  --color-gold: #c5a46d;
+  --color-text: #282525;
+  --color-bg-secondary: #e9dfd1;
+  --color-white: #ffffff;
+  --color-text-muted: #5c5552;
+  --shadow-soft: 0 18px 40px -28px rgba(40, 37, 37, 0.35);
+  --header-h: 4.5rem;
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100%;
+  z-index: 100;
+  background: var(--color-brand);
+  color: var(--color-white);
+  padding: 0.75rem 1rem;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.section-pad {
+  padding-block: var(--space-section, clamp(3.5rem, 8vw, 7rem));
+  padding-inline: 0;
+}
+
+.container-site {
+  width: var(--layout-width-mobile);
+  max-width: var(--layout-width-mobile);
+  margin-inline: auto;
+}
+
+@media (min-width: 991px) {
+  .container-site {
+    width: var(--layout-width-desktop);
+    max-width: var(--layout-width-desktop);
+  }
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+.heading-display {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--color-brand);
+}
+
+.heading-section {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: var(--color-brand);
+}
+
+.heading-card {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--color-brand);
+}
+
+.body-muted {
+  color: var(--color-text-muted);
+}
+
+.bg-section-alt {
+  background: color-mix(in srgb, var(--color-bg-secondary) 45%, var(--color-bg));
+}
+
+.bg-section-soft {
+  background: color-mix(in srgb, var(--color-bg-secondary) 55%, var(--color-bg));
+}
